@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/dist/css/style.min.css">
+    <meta name="description"
+        content="Nalepszy park widokowy w Polsce. W naszej ofercie znajdziesz nocleg na łonie natury oraz organizację imprez okolicznościowych w zielonym otoczeniu.">
+    <title>ForestProject - Kontakt</title>
+</head>
+
+<body>
+    <!-- @include 'cookies.kit' -->
+
+    <nav>
+        <!-- @include 'nav.kit' -->
+    </nav>
+
+    <header class="header wrapper">
+        <div class="header__bg"></div>
+        <div class="header__text">
+            <h1>Forest Group</h1>
+            <p>Najpiękniejszy park w Twojej okolicy!</p>
+        </div>
+    </header>
+
+    <section class="contact wrapper" id="contact">
+        <div class="contact__info">
+            <div class="location">
+                <img src="/dist/img/svg/location.svg" aria-hidden="true">
+                <h3>Adres:</h3>
+                <p>ul. ABC</p>
+                <p>12-345</p>
+                <p>Warszawa</p>
+            </div>
+            <div class="email">
+                <img src="/dist/img/svg/email.svg" aria-hidden="true">
+                <h3>Mail:</h3>
+                <p>kontakt@forestproject.xyz</p>
+            </div>
+            <div class="phone">
+                <img src="/dist/img/svg/phone.svg" aria-hidden="true">
+                <h3>Telefon:</h3>
+                <p>+48 012 34 567</p>
+                <p>+48 123 456 789</p>
+            </div>
+        </div>
+
+        <div class="contact__map">
+            <h2>Znajdź nas:</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.898268659004!2d19.890660215824326!3d50.08819152128159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165a326d015c3b%3A0x47a12cd367a1f34e!2sRestauracja%20McDonald&#39;s!5e0!3m2!1spl!2spl!4v1662994093921!5m2!1spl!2spl"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="contact__form">
+            <h2>Napisz do nas:</h2>
+            <form>
+                <div class="contact__form-box">
+                    <label for="name">Imię: </label>
+                    <input type="text" id="name">
+                </div>
+                <div class="contact__form-box">
+                    <label for="mail">Email: </label>
+                    <input type="text" id="mail">
+                </div>
+                <div class="contact__form-box">
+                    <label for="phone">Telefon: </label>
+                    <input type="text" inputmode="numeric" pattern="[0-9]*" maxlength="12" id="phone">
+                </div>
+                <div class="contact__form-box">
+                    <label for="msg">Wiadomość: </label>
+                    <textarea id="msg" cols="30" rows="10"></textarea>
+                </div>
+                <button type="submit" class="contact__form-btn">Wyślij</button>
+            </form>
+
+
+
+        </div>
+
+    </section>
+
+    <footer>
+        <!-- @include 'footer.kit' -->
+    </footer>
+
+    <script src="/dist/js/script.min.js"></script>
+</body>
+
+</html>

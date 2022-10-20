@@ -1,0 +1,47 @@
+.burger-btn {
+	position: fixed;
+	top: 6px;
+	right: 10px;
+	padding: 0.5em;
+	background: none;
+	border: 1px solid transparent;
+	cursor: pointer;
+	z-index: 10;
+
+	&:focus {
+		outline: none;
+		border: 1px solid $black;
+		border-radius: 5px;
+	}
+
+	&__box {
+		position: relative;
+		width: 40px;
+		height: 32px;
+	}
+
+	&__bars,
+	&__bars::after,
+	&__bars::before {
+		position: absolute;
+		right: 0;
+		height: 4px;
+		background-color: $black;
+		transition: width 0.2s;
+		content: '';
+	}
+
+	&__bars {
+		width: 100%;
+
+		&::after {
+			top: 14px;
+			width: 100%;
+		}
+
+		&::before {
+			top: 28px;
+			width: 100%;
+		}
+	}
+}

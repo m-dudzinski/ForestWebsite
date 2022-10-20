@@ -1,0 +1,131 @@
+@media (min-width: 768px) {
+  .burger-btn {
+    display: none;
+  }
+
+  .header {
+    background-image: url('/dist/img/jungle_1280.jpg');
+
+    &__text {
+      h1 {
+        font-size: 1.4em;
+      }
+
+      p {
+        font-size: 1.8em;
+      }
+    }
+  }
+
+  nav {
+    .navbar-container {
+      .navbar-items {
+        .nav-desktop {
+          display: inline;
+        }
+      }
+    }
+  }
+
+  .aboutus {
+    width: 80%;
+
+    h1 {
+      margin: 50px 0px;
+    }
+
+    .aboutus-container {
+      &__text {
+        h3 {
+          font-size: 1.5em;
+          margin-bottom: 15px;
+        }
+        p {
+          font-size: 0.9em;
+        }
+      }
+
+      &__img {
+        height: 400px;
+        width: 100%;
+        background-image: url('/dist/img/waters_1280.jpg');
+      }
+    }
+  }
+
+  .separation {
+    .separation-img {
+      background-image: url('/dist/img/kid_1280.jpg');
+      &__text {
+        h1 {
+          padding: 30px 120px;
+          font-size: 1.2em;
+        }
+      }
+    }
+  }
+
+  .offers {
+    &__card {
+      width: 40%;
+    }
+
+    &__redirect-button {
+      button {
+        padding: 40px 60px;
+        font-size: 1.2em;
+      }
+    }
+  }
+
+  .contact {
+    h2 {
+      font-size: 1.8em;
+    }
+
+    &__info {
+      flex-direction: row;
+
+      .location,
+      .email,
+      .phone {
+        width: 30%;
+      }
+    }
+
+    &__map {
+      iframe {
+        height: 500px;
+      }
+    }
+
+    &__form-box {
+      margin-bottom: 15px;
+      width: 450px;
+
+      input {
+        max-width: 80%;
+        min-width: 60%;
+        margin-bottom: 15px;
+      }
+
+      textarea {
+        max-width: 100%;
+        min-width: 100%;
+        min-height: 50px;
+      }
+
+      input,
+      textarea {
+        padding: 0.5em;
+        outline: none;
+      }
+
+      input:focus,
+      textarea:focus {
+        border: 2px solid $dark-green;
+        border-radius: 5px;
+      }
+    }
+  }
+}

@@ -1,0 +1,134 @@
+@media (min-width: 992px) {
+  .cookies-container {
+    height: 250px;
+    font-size: 2rem;
+  }
+
+  .cookies-btn {
+    font-size: 1.8rem;
+  }
+
+  .header {
+    background-image: url('/dist/img/jungle_1920.jpg');
+  }
+
+  .aboutus {
+    width: 80%;
+
+    h1 {
+      margin: 80px 0px;
+    }
+
+    .aboutus-container {
+      flex-direction: row-reverse;
+      align-items: flex-start;
+      &__text {
+        margin-left: 30px;
+        padding: 0px 20px;
+        width: 50%;
+        h3 {
+          text-align: left;
+          font-size: 1.7em;
+        }
+      }
+
+      &__img {
+        height: 300px;
+        width: 40%;
+        background-image: url('/dist/img/waters_1920.jpg');
+      }
+    }
+  }
+
+  .separation {
+    .separation-img {
+      background-image: url('/dist/img/kid_1920.jpg');
+      &__text {
+        h1 {
+          padding: 30px 150px;
+          font-size: 1.2em;
+        }
+      }
+    }
+  }
+
+  .offers {
+    h1 {
+      margin: 80px 0 20px 0;
+    }
+    &__container {
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    &__card {
+      width: 25%;
+      margin: 20px 30px;
+      padding: 20px;
+    }
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    &__info {
+      margin-bottom: 50px;
+      width: 100%;
+
+      .location,
+      .email,
+      .phone {
+        width: 25%;
+      }
+    }
+
+    &__map {
+      width: 50%;
+    }
+
+    &__form {
+      width: 50%;
+    }
+  }
+
+  .footer {
+    .footer-nav {
+      display: flex;
+      justify-content: space-around;
+      margin: 50px 0px;
+
+      &__logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+          padding-left: 20px;
+          font-size: 2em;
+        }
+      }
+
+      &__items {
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+      }
+
+      &__item {
+        margin-right: 50px;
+
+        h3 {
+          font-size: 1.3em;
+        }
+
+        ul {
+          li {
+            padding: 15px 0px;
+          }
+        }
+      }
+    }
+  }
+}

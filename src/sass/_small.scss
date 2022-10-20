@@ -1,0 +1,42 @@
+@media (min-width: 576px) {
+  .cookies-container {
+    font-size: 1.6rem;
+  }
+
+  .cookies-btn {
+    font-size: 1.4rem;
+  }
+
+  .navbar-container {
+    .navbar-logo {
+      padding-left: 20px;
+    }
+  }
+
+  .header {
+    &__text {
+      h1 {
+        font-size: 1.2em;
+      }
+
+      p {
+        font-size: 1.6em;
+      }
+    }
+  }
+  .separation {
+    .separation-img {
+      &__text {
+        h1 {
+          padding: 30px 60px;
+        }
+      }
+    }
+  }
+
+  .offers {
+    &__card {
+      width: 50%;
+    }
+  }
+}
