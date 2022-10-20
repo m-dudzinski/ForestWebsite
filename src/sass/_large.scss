@@ -9,7 +9,7 @@
   }
 
   .header {
-    background-image: url('/dist/img/jungle_1920.jpg');
+    background-image: url('../dist/img/jungle_1920.jpg');
   }
 
   .aboutus {
@@ -35,14 +35,14 @@
       &__img {
         height: 300px;
         width: 40%;
-        background-image: url('/dist/img/waters_1920.jpg');
+        background-image: url('../dist/img/waters_1920.jpg');
       }
     }
   }
 
   .separation {
     .separation-img {
-      background-image: url('/dist/img/kid_1920.jpg');
+      background-image: url('../dist/img/kid_1920.jpg');
       &__text {
         h1 {
           padding: 30px 150px;

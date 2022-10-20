@@ -151,7 +151,7 @@ nav {
 .header {
   position: relative;
   height: 360px;
-  background-image: url('/dist/img/jungle_640.jpg');
+  background-image: url('../dist/img/jungle_640.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -213,7 +213,7 @@ nav {
     &__img {
       height: 200px;
       width: 80%;
-      background-image: url('/dist/img/waters_640.jpg');
+      background-image: url('../dist/img/waters_640.jpg');
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -228,7 +228,7 @@ nav {
   .separation-img {
     position: relative;
     height: 200px;
-    background-image: url('/dist/img/kid_640.jpg');
+    background-image: url('../dist/img/kid_640.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
