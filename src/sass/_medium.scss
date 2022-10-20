@@ -4,7 +4,7 @@
   }
 
   .header {
-    background-image: url('/./dist/img/jungle_1280.jpg');
+    background-image: url('..img/jungle_1280.jpg');
 
     &__text {
       h1 {
@@ -48,14 +48,14 @@
       &__img {
         height: 400px;
         width: 100%;
-        background-image: url('/./dist/img/waters_1280.jpg');
+        background-image: url('..img/waters_1280.jpg');
       }
     }
   }
 
   .separation {
     .separation-img {
-      background-image: url('/./dist/img/kid_1280.jpg');
+      background-image: url('..img/kid_1280.jpg');
       &__text {
         h1 {
           padding: 30px 120px;
